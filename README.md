@@ -1,7 +1,7 @@
 # UFOs: displaying filterable UFO sighting data
 
 ## Overview
-Data journalist Dana wants to display UFO sighting data for an article she is writing.  Because her dataset is large, she wants to display the data as a filterable table on a website, so readers of her article can pick subsets of the information that is most relevant to their interests.  To achieve this end, I created a website that displays her article and uses javascript to filter the sighting data based on the date, city, state and country of the sighting, as well as the shape of the sighted UFO.
+Data journalist Dana wants to display UFO sighting data for an article she is writing.  Because her dataset is large, she wants to display the data as a filterable table on a website, so readers of her article can look at the subsets of information that are most relevant to their interests.  To achieve this end, I created a website that displays her article and uses javascript to filter the sighting data based on the date, city, state and country of the sighting, as well as the shape of the sighted UFO.
 
 ## Results
 1) Users can filter the data set using the Filter Search section of the webpage (see **Fig 1**).
@@ -10,7 +10,7 @@ Data journalist Dana wants to display UFO sighting data for an article she is wr
 
 ![filters](Resources/filter_search.png)
 
-2) The user types in an appropriate value into one of the filters and then hits enter, tab, or clicks off of the filter to trigger the filter.  The filter removes all sightings from the table that do not match the filter criterion.  E.g. if a user wants to filter for sights in el cajon, the table will go from the entire data set (see **Fig 2**) to just those with el cajon as the city of sighting (see **Fig 3**).
+2) The user types in an appropriate value into one of the filters and then hits enter, tab, or clicks off of the filter input to trigger the filter.  The filter removes all sightings from the table that do not match the filter criterion.  E.g. if a user wants to filter for sights in el cajon, the table will go from the entire data set (see **Fig 2**) to just those with el cajon as the city of sighting (see **Fig 3**).
 
 **Figure 2:** The appearance of the table before it has been filtered.
 
@@ -26,6 +26,8 @@ Data journalist Dana wants to display UFO sighting data for an article she is wr
 **Figure 4:** The appearance of the table before has been filtered for city = el cajon and shape = light.
 
 ![el-cajon-light-data](Resources/post_filter_2.png)
+
+4) Filters can be removed by deleting any text in the filter inputs.
 
 
 ## Summary
