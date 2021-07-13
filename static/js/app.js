@@ -28,8 +28,6 @@ var filters = {};
 
 // 3. Use this function to update the filters. 
 function updateFilters() {
-  console.log('triggered')
-
 
     // 4a. Save the element that was changed as a variable.
     const element = d3.select(this);
