@@ -4,6 +4,12 @@
 Data journalist Dana wants to display UFO sighting data for an article she is writing.  Because her dataset is large, she wants to display the data as a filterable table on a website, so readers of her article can look at the subsets of information that are most relevant to their interests.  To achieve this end, I created a website that displays her article and uses javascript to filter the sighting data based on the date, city, state and country of the sighting, as well as the shape of the sighted UFO.
 
 ## Results
+
+### Live Link
+
+https://neurobio.github.io/UFOs/
+
+### How to filter
 1) Users can filter the data set using the Filter Search section of the webpage (see **Fig 1**).
 
 **Figure 1:** The appearance of the table filters.
